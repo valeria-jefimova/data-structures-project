@@ -26,3 +26,11 @@ def test_pop():
     assert stack.pop() is None
     with pytest.raises(AttributeError):
         stack.top.next_node
+
+
+def test__str__(self):
+        stack = Stack()
+        self.assertEqual(stack.top, None)
+
+
+

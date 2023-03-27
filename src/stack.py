@@ -45,6 +45,9 @@ class Stack:
         self.top = node.next_node
         return node.data
 
+    def __str__(self):
+        return str(self.top.data)
+
 
 stack = Stack()
 print(stack.top)
